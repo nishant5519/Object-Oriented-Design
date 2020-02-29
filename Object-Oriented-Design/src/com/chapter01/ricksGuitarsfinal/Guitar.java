@@ -4,7 +4,7 @@ public class Guitar {
 
   private String serialNumber;
   private double price;
-  GuitarSpec spec;
+  private GuitarSpec spec;
 
   public Guitar(String serialNumber, double price, GuitarSpec spec) {
     this.serialNumber = serialNumber;

@@ -11,6 +11,8 @@ public class Inventory {
     guitars = new LinkedList<>();
   }
 
+  //Strong coupling between Inventory and Guitar class. Any change in Guitar class would impact Inventory class
+  //Not good OO architecture
   public void addGuitar(String serialNumber, double price,
                         String builder, String model,
                         String type, String backWood, String topWood) {

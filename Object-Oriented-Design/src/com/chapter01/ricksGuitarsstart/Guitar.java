@@ -5,6 +5,8 @@ public class Guitar {
   private String serialNumber, builder, model, type, backWood, topWood;
   private double price;
 
+  
+  //Too many strings used
   public Guitar(String serialNumber, double price,
                 String builder, String model, String type,
                 String backWood, String topWood) {
